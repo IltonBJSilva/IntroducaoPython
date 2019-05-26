@@ -10,16 +10,30 @@ Referência ao enunciado/origem do exercício: https://www.udemy.com/intro_pytho
 a = 2
 b = 3
 
-print("A = ", a, "B = ", b)
+nomes = ['Pedro', 'Joao', 'Leticia']
 
-if a == b:
-    print("A = B") 
+contador = 0
 
-elif a > b:
-    print("A MAIOR QUE B")
+print("a = ", a,"\n")
+print("b = ", b,"\n")
+print("Contador = ", contador)
+print("nomes = ", nomes,"\n")
 
-elif a < b:
-    print("A MENOR QUE B")
+for i in nomes:
+    print(i)
 
-else:
-    print("Nenhuma alternativa e correta")
+print("-----------------------------------------")
+
+for i in range(a):
+    print(i)
+
+print("-----------------------------------------")
+
+for i in range(b):
+    print(i)
+
+print("-----------------------------------------")
+
+while contador < 5:
+    print(contador)
+    contador = contador + 1

@@ -10,23 +10,16 @@ Referência ao enunciado/origem do exercício: https://www.udemy.com/intro_pytho
 a = 2
 b = 3
 
-print("a = ", 2 ,"---","b = ",b)
+print("A = ", a, "B = ", b)
 
-#Soma
-print("Soma a + b: ", a+b)
+if a == b:
+    print("A = B") 
 
-#Subtração
-print("Subtracao a - b: ", a-b)
+elif a > b:
+    print("A MAIOR QUE B")
 
-#b = 3
-#Exponenciação a*a*a
-print("Exponenciacao a ** b: ", a**b)
+elif a < b:
+    print("A MENOR QUE B")
 
-#extração da parte inteira da divisão
-print("Part-inteira a // b: ", a//b)
-
-#Multiplicação
-print("Multiplicacao a * b: ", a*b)
-
-#Divisão
-print("Divisao a / b: ", a/b)
+else:
+    print("Nenhuma alternativa e correta")

@@ -7,33 +7,11 @@ Referência ao enunciado/origem do exercício: https://www.udemy.com/intro_pytho
 
 #coding: utf-8
 
-a = 2
-b = 3
+usuario = input("Insira seu login: ")
+print("Ola " + usuario)
 
-nomes = ['Pedro', 'Joao', 'Leticia']
-
-contador = 0
-
-print("a = ", a,"\n")
-print("b = ", b,"\n")
-print("Contador = ", contador)
-print("nomes = ", nomes,"\n")
-
-for i in nomes:
-    print(i)
-
-print("-----------------------------------------")
-
-for i in range(a):
-    print(i)
-
-print("-----------------------------------------")
-
-for i in range(b):
-    print(i)
-
-print("-----------------------------------------")
-
-while contador < 5:
-    print(contador)
-    contador = contador + 1
+#Soma com entrada de valor
+a = int(input("Insira o valor a: "))
+b = int(input("Insira o valor b: "))
+c = a + b
+print("soma = ", c) 

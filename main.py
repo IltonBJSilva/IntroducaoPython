@@ -13,9 +13,7 @@ Referência ao enunciado/origem do exercício: https://www.udemy.com/intro_pytho
 criar_arquivo = open("arquivo.txt", "a")
 
 #Escrever dentro do arquivo 2
-for criar_arquivos in criar_arquivo:
-    criar_arquivo.write("\nEAIIII BROOOOWWW")
-
+criar_arquivo.write("\nEAIIII BROOOOWWW")
 
 #Fechar arquivo
 criar_arquivo.close()

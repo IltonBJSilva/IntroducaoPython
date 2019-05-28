@@ -5,24 +5,17 @@ Objetivo sucinto do programa: Introdução a python e conceitos basicos
 Referência ao enunciado/origem do exercício: https://www.udemy.com/intro_python/learn/lecture/11785586#overview
 '''
 
-#coding: utf-8
+# -*- coding: utf-8 -*-
 
-arquivo = open("arquivo.txt")
+#Criação de arquivo
+#Se abrir ja um existente vai sobescrever
+#Usando o metodo "a" pode adicionar sem sobescrever 
+criar_arquivo = open("arquivo.txt", "a")
 
-#Joga dentro de uma lista
-#linhas = arquivo.readlines()
+#Escrever dentro do arquivo 2
+for criar_arquivos in criar_arquivo:
+    criar_arquivo.write("\nEAIIII BROOOOWWW")
 
 
-#print(arquivo,"\n\n")
-#print(linha)
-
-#Imprimir uma por uma
-'''
-for linha in linhas:
-    print(linha)
-'''
-
-#ja vai o texto todo
-texto_completo = arquivo.read()
-
-print(texto_completo)
+#Fechar arquivo
+criar_arquivo.close()

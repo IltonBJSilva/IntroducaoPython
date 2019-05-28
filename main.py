@@ -7,11 +7,22 @@ Referência ao enunciado/origem do exercício: https://www.udemy.com/intro_pytho
 
 #coding: utf-8
 
-usuario = input("Insira seu login: ")
-print("Ola " + usuario)
+arquivo = open("arquivo.txt")
 
-#Soma com entrada de valor
-a = int(input("Insira o valor a: "))
-b = int(input("Insira o valor b: "))
-c = a + b
-print("soma = ", c) 
+#Joga dentro de uma lista
+#linhas = arquivo.readlines()
+
+
+#print(arquivo,"\n\n")
+#print(linha)
+
+#Imprimir uma por uma
+'''
+for linha in linhas:
+    print(linha)
+'''
+
+#ja vai o texto todo
+texto_completo = arquivo.read()
+
+print(texto_completo)
